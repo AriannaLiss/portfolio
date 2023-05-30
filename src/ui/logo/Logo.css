@@ -1,0 +1,8 @@
+.logo{
+    height: 5.4rem;
+    transition: all 1s ease;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+}

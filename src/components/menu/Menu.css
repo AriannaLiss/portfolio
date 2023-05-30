@@ -1,0 +1,36 @@
+.header{
+    text-transform: capitalize;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-top: 2.3rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    color:var(--white);
+}
+
+.header img{
+    vertical-align: middle;
+    margin-right: 6rem;
+}
+
+.header__list{
+    display:flex;
+}
+
+.header__item{
+    margin: 0 1rem;
+}
+
+.header__item:hover>a{
+    color:var(--yellow);
+}
+
+header .hire{
+    width: auto;
+}

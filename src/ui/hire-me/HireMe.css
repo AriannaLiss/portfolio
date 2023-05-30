@@ -1,0 +1,19 @@
+.hire{
+    padding: 0 2.6rem;
+    font-weight: 700;
+    line-height: 5.4rem;
+    height: 5.4rem;
+    border-radius: 5rem;
+    border: 0.2rem solid var(--yellow);
+    overflow: auto;
+    color:var(--yellow);
+    font-family: 'Poppins';
+    font-size: 1.8rem;
+    width: 10rem;
+    text-align: center;
+}
+
+.hire:hover{
+    color:var(--black);
+    background-color: var(--yellow);
+}
