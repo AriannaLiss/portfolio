@@ -4,16 +4,13 @@ import Logo from '../../ui/logo/Logo';
 import './Menu.css';
 
 const Menu = () => {
+    const menu = ['home', 'about', 'skills', 'portfolio', 'contact'];
     return (
         <header>
             <div className="header">
                 <Logo/>
                 <div className="header__list">
-                    <div className="header__item"><a href="#">home</a></div>
-                    <div className="header__item"><a href="#">about</a></div>
-                    <div className="header__item"><a href="#">skills</a></div>
-                    <div className="header__item"><a href="#">portfolio</a></div>
-                    <div className="header__item"><a href="#">contact</a></div>
+                    {menu.map( item => <a className="header__item" href={"#"+item}>{item}</a>)}
                 </div>
                 <HireMe/>
             </div>

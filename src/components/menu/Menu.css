@@ -9,11 +9,6 @@
     align-items: center;
 }
 
-.header a{
-    text-decoration: none;
-    color:var(--white);
-}
-
 .header img{
     vertical-align: middle;
     margin-right: 6rem;
@@ -21,16 +16,19 @@
 
 .header__list{
     display:flex;
-}
-
-.header__item{
-    margin: 0 1rem;
-}
-
-.header__item:hover>a{
-    color:var(--yellow);
+    flex-wrap: wrap;
 }
 
 header .hire{
     width: auto;
+}
+
+.header__item{
+    color:var(--white);
+    padding:1rem;
+    margin: 0 1rem;
+}
+
+.header__item:hover{
+    color:var(--yellow);
 }

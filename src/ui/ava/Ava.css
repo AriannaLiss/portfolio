@@ -1,4 +1,10 @@
-.ava img{
+.ava{
+    background-color: var(--yellow);
     height: 30rem;
+    width:30rem;
     border-radius: 50%;
+    overflow: hidden;
+}
+.ava img{
+    height:100%;
 }

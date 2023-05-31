@@ -1,5 +1,5 @@
 import React from 'react';
-import ava from '../../img/ava.jpeg';
+import ava from '../../img/ava.png';
 import './Ava.css';
 
 const Ava = () => {

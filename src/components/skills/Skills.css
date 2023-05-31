@@ -1,0 +1,27 @@
+
+.skills__icons{
+    width:48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content:flex-start;
+    gap:0;
+}
+
+.skill{
+    padding: 1.6rem;
+    background-color:var(--lGrey);
+    border-radius: 1rem;
+    width:5rem;
+    height:5rem;
+    margin:0.5rem;
+}
+
+.skill:hover{
+    background-color: var(--oYellow);
+}
+
+.skill > img{
+    height:100%;
+    max-width: 100%;
+}

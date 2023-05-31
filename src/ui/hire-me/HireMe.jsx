@@ -3,9 +3,7 @@ import './HireMe.css'
 
 const HireMe = () => {
     return (
-        <a href="#">
-            <div className="hire">Hire me</div>
-        </a>
+        <a href="mailto:lidiia.kalakutska@gmail.com" className="hire">Hire me</a>
     );
 };
 

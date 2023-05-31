@@ -1,0 +1,43 @@
+.about, .skills{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__foto{
+    width: 45%;
+    margin: 2rem;
+    float:left;
+    background-image: url('../../img/bg.png');
+    background-size:100% 75%;
+    background-repeat: no-repeat;
+}
+
+.about__foto > img{
+    width:100%;
+}
+
+.content{
+    /* width:52%; */
+    font-family: 'Poppins';
+    font-weight: 400;
+    margin-bottom: 7rem;
+}
+
+.text{
+    margin: 1rem 1rem 6rem;
+    font-size: 1.6rem;
+}
+
+.text>*{
+    transition: transform 1s ease;
+}
+
+.text>*:hover{
+    transform: scale(1.05);
+}
+
+.grey-text{
+    line-height: 3rem;
+    font-size: 1.6rem;
+    color: var(--llGrey);
+}

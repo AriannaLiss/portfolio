@@ -14,6 +14,10 @@
     font-weight: 400;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     background-color: var(--black);
     color:var(--white);
@@ -27,7 +31,7 @@ body a{
 .container{
     margin: 0 auto;
     width: 90%;
-    min-width:680px;
+    min-width:30rem;
 }
 
 section{
@@ -44,6 +48,8 @@ section{
     display: inline-block;
     border-radius: 5rem;
     padding:0.2rem 2rem;
+    margin-bottom: 2rem;
+    transition: background-color 1s ease;
 }
 
 .title:hover{

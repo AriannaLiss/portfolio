@@ -4,7 +4,7 @@ import Ava from '../../ui/ava/Ava';
 
 const Presentation = () => {
     return (
-        <section>
+        <section id='home'>
             <div class="presentation">
                 <p>Hi, I am <a href="#">Lidia Kalakutska</a> 👋</p>
                 <h1>Front-end developer</h1>
