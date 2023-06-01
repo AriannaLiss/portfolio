@@ -1,0 +1,15 @@
+.text{
+    margin: 1rem 1rem 6rem;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    color: var(--llGrey);
+}
+
+.text>*,.subtitle{
+    transition: transform 1s ease;
+}
+
+.text>*:hover,.subtitle:hover{
+    transform: scale(1.05);
+}

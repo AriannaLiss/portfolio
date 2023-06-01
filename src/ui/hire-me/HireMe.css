@@ -13,9 +13,11 @@
     width: 10rem;
     min-width: 4rem;
     text-align: center;
+    transition:all 1s ease;
 }
 
 .hire:hover{
     color:var(--black);
     background-color: var(--yellow);
+    transform: scale(1.1);
 }

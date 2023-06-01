@@ -49,12 +49,6 @@ section{
     border-radius: 5rem;
     padding:0.2rem 2rem;
     margin-bottom: 2rem;
-    transition: background-color 1s ease;
-}
-
-.title:hover{
-    background-color: var(--oYellow);
-    color:var(--black);
 }
 
 h1, h2{

@@ -22,22 +22,3 @@
     font-weight: 400;
     margin-bottom: 7rem;
 }
-
-.text{
-    margin: 1rem 1rem 6rem;
-    font-size: 1.6rem;
-}
-
-.text>*{
-    transition: transform 1s ease;
-}
-
-.text>*:hover{
-    transform: scale(1.05);
-}
-
-.grey-text{
-    line-height: 3rem;
-    font-size: 1.6rem;
-    color: var(--llGrey);
-}
