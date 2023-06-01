@@ -5,7 +5,7 @@
 
 .about__foto{
     width: 45%;
-    margin: 2rem;
+    margin: 2rem 5rem 0 0;
     float:left;
     background-image: url('../../img/bg.png');
     background-size:100% 75%;
@@ -16,8 +16,11 @@
     width:100%;
 }
 
+.about__text{
+    margin-bottom: 3rem;
+}
+
 .content{
-    /* width:52%; */
     font-family: 'Poppins';
     font-weight: 400;
     margin-bottom: 7rem;

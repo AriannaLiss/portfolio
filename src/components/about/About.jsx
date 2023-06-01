@@ -1,7 +1,7 @@
 import React from 'react';
 import HireMe from '../../ui/hire-me/HireMe';
 import './About.css';
-import photo from '../../img/photo.png'
+import photo from '../../img/me.png'
 import Text from '../../ui/text/Text';
 
 const About = () => {
@@ -21,7 +21,7 @@ const About = () => {
         <div className="about">
             <div className="content">
                 <div className="about__foto"><img src={photo} alt="photo"/></div>
-                <Text {...text}/>
+                <Text className="about__text" {...text}/>
                 <HireMe/>
             </div>
         </div>

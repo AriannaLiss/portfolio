@@ -8,6 +8,29 @@
     gap:0;
 }
 
+.skills__text{
+    margin:0rem 0 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.skill__text{
+    padding: 1rem;
+    border-radius: 1rem;
+    display: block;
+}
+
+.skill, .skill__text{
+    transition: all 1s ease-in;
+    cursor: pointer;
+}
+
+.skill:hover, .skill__text:hover{
+    background-color: var(--oYellow);
+    transform: scale(1.1);
+}
+
 .skill{
     padding: 1.6rem;
     background-color:var(--lGrey);
@@ -18,12 +41,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: transform 1s ease;
-}
-
-.skill:hover{
-    background-color: var(--oYellow);
-    transform: scale(1.1);
 }
 
 .skill > img{

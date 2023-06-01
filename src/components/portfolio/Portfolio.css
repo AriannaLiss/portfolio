@@ -1,0 +1,43 @@
+.works{
+    text-align:center;
+}
+
+.categories{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.category{
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.3rem;
+    margin:1rem;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.category:hover{
+    background-color: var(--yellow);
+    color: var(--black);
+    transform: scale(1.1);
+}
+
+.sites{
+    display: flex;
+    justify-content: center;
+}
+
+.site {
+    margin:3rem 1.5rem;
+    transition: all 1s ease;
+}
+
+.site:hover{
+    transform: scale(1.1);
+}
+
+.site>img {
+    width:100%;
+}
