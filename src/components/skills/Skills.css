@@ -1,6 +1,10 @@
+.skills{
+    display: flex;
+    justify-content: space-between;
+}
 
 .skills__icons{
-    width:48%;
+    width:40rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -12,6 +16,7 @@
     margin:0rem 0 2rem;
     font-size: 1.5rem;
     display: flex;
+    justify-content: flex-end;
     flex-wrap:wrap;
 }
 

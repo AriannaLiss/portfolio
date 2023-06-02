@@ -46,15 +46,24 @@ footer a:hover{
 }
 
 .footer__column{
-    width:23%;
     min-width:10rem;
-    margin:1rem;
+    margin:1rem 2rem;
     text-transform: capitalize;
 }
 
+.footer__column:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer__contacts{
+    text-transform: none;
+    align-self: flex-end;    
+} 
+
 .footer__item{
     display:block;
-    margin:0 1rem;
 }
 
 .name{

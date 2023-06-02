@@ -1,0 +1,24 @@
+.container{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(92, 82, 135, 0.187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.hide{
+    display: none;
+}
+
+.window{
+    background-color: #fff;
+    min-width: 30rem;
+    min-height: 20rem;
+    padding: 2rem;
+    border-radius: 3rem;
+}

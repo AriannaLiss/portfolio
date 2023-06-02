@@ -15,10 +15,16 @@ const Footer = () => {
         <footer id='contacts'>
             <div className="container footer">
                 <div className="footer__column">
-                    <a href="#"><h1 className='name'>Lidia Kalakutska</h1></a>
-                    <p className="grey-text">
-                        Front-end developer
-                    </p>
+                    <div>
+                        <a href="#"><h1 className='name'>Lidia Kalakutska</h1></a>
+                        <p className="grey-text">
+                            Front-end developer
+                        </p>
+                    </div>
+                    <div className="footer__contacts">
+                        <div>tel: <a href="tel:+420731022655">+420 731 022 655</a></div>
+                        <div>email:&nbsp;<a href="mailto:lidiia.kalakutska@gmail.com">lidiia.kalakutska@gmail.com</a></div>
+                    </div>
                 </div>
                 <div className="footer__column">
                     <div className="footer__content"></div>
@@ -30,7 +36,7 @@ const Footer = () => {
                     {socials.map( item => <a key={item.children} className="footer__item" target='_blank' {...item}/> )}
                 </div>
             </div>
-            <p className="sign">This site's been created <a target='_blank' href='https://github.com/AriannaLiss/portfolio'>in React (github.com)</a></p>
+            <p className="sign">This site is developed in <a target='_blank' href='https://github.com/AriannaLiss/portfolio'>React</a> (look at <a target='_blank' href='https://github.com/AriannaLiss/portfolio'>github.com</a>)</p>
         </footer>
     );
 };

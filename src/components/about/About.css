@@ -1,4 +1,4 @@
-.about, .skills{
+.about{
     display: flex;
     justify-content: space-between;
 }

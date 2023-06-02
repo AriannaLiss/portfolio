@@ -1,0 +1,26 @@
+
+.categories{
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.category{
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding: 0.5rem 2rem;
+    border-radius: 0.3rem;
+    margin:1rem;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.selected-category{
+    border: 1px solid var(--yellow)
+}
+
+.category:hover{
+    background-color: var(--yellow);
+    color: var(--black);
+    transform: scale(1.1);
+}

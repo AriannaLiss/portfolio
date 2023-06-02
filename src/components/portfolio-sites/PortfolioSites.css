@@ -1,0 +1,31 @@
+.sites{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.site {
+    margin:3rem 1.5rem;
+    transition: all 1s ease;
+    max-width:30%;
+    max-height:42vh;
+    overflow: hidden;
+}
+
+.pair_columns .site{
+    max-width: 48%;
+}
+
+.site:hover{
+    transform: scale(1.1);
+}
+
+.site>img {
+    width:100%;
+}
+
+.noSites{
+   font-size: 1.5rem;
+   padding:3rem; 
+   color: var(--llGrey)
+}
