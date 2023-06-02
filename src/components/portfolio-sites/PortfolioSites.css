@@ -8,7 +8,8 @@
     margin:3rem 1.5rem;
     transition: all 1s ease;
     max-width:30%;
-    max-height:42vh;
+    height:60vh;
+    max-height: 40rem;
     overflow: hidden;
 }
 
@@ -78,8 +79,8 @@
     }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-height: 600px) {
     .site {
-      max-height: 80vh;
+      height: 80vh;
     }
   }

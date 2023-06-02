@@ -10,7 +10,7 @@ const Menu = () => {
             <div className="header">
                 <Logo/>
                 <div className="header__list">
-                    {MENU.map( item => <a key={item} className="header__item" href={"#"+item}>{item}</a>)}
+                    {MENU.slice(1).map(item => <a key={item} className="header__item" href={"#"+item}>{item}</a>)}
                 </div>
                 <div className='header__hire'><HireMe/></div>
             </div>

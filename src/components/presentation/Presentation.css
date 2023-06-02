@@ -41,7 +41,7 @@
     }
 }
 
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-height: 800px) {
     .home__ava {
       display: none;
     }
