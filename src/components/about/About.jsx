@@ -22,7 +22,7 @@ const About = () => {
             <div className="content">
                 <div className="about__foto"><img src={photo} alt="photo"/></div>
                 <Text className="about__text" {...text}/>
-                <div className='right'><HireMe/></div>
+                <div className='about__hire right'><HireMe/></div>
             </div>
         </div>
     </section>

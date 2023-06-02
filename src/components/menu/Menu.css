@@ -11,12 +11,12 @@
 
 .header img{
     vertical-align: middle;
-    margin-right: 6rem;
 }
 
 .header__list{
     display:flex;
     flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 header .hire{
@@ -31,4 +31,23 @@ header .hire{
 
 .header__item:hover{
     color:var(--yellow);
+}
+
+@media screen and (max-width: 839px){
+    .header{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 545px){
+    .header__hire{
+        display: none;
+    }
+
+    .header__item:first-child{
+        display: none;
+    }
+    .header__item{
+        padding:.5rem;
+    }
 }

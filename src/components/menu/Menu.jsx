@@ -12,7 +12,7 @@ const Menu = () => {
                 <div className="header__list">
                     {MENU.map( item => <a key={item} className="header__item" href={"#"+item}>{item}</a>)}
                 </div>
-                <HireMe/>
+                <div className='header__hire'><HireMe/></div>
             </div>
         </header>
     );

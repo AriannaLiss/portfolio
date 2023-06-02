@@ -47,7 +47,7 @@ footer a:hover{
 
 .footer__column{
     min-width:10rem;
-    margin:1rem 2rem;
+    margin: .25rem 2rem;
     text-transform: capitalize;
 }
 
@@ -58,13 +58,8 @@ footer a:hover{
 }
 
 .footer__contacts{
-    text-transform: none;
-    align-self: flex-end;    
+    text-transform: none; 
 } 
-
-.footer__item{
-    display:block;
-}
 
 .name{
     word-wrap: break-word;
@@ -74,16 +69,80 @@ footer a:hover{
     float:right;
     padding: .8rem 7rem 0;
     font-weight:300;
-    font-size: 1.5rem;
     transition: all 1s ease;
     display: inline-block;
+    text-align: right;
+    line-height: 3rem;
+    font-size:1.5rem;
 }
 
 .sign a{
     color:white;
     font-size: 1.5rem;
+    line-height: 3rem!important;
 }
 
 .sign:hover{
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 720px) {
+    .footer *{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .name{
+        font-size: 2.5rem;
+        line-height: 4rem;    
+    }
+}
+
+@media screen and (max-width: 645px){
+    .footer__navigation{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 545px){
+    #contacts{
+        padding-top:0;
+    }
+
+    .footer__list{
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: disc;
+    }
+    .footer__item{
+        margin: 0 1.5rem; 
+    }
+    .footer__item:first-child{
+        list-style-type: none;
+        margin-left: 0;
+    }
+    .footer__title{
+        display: none;
+    }
+    .footer__contacts-column a{
+        margin: 0 1rem .5rem 0;
+    }
+    .sign{
+        padding-right: 3rem;
+        font-size: 1.3rem;
+    }
+    .footer__profession{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 290px){
+    .name{
+        font-size: 2rem; 
+        line-height: 3rem;; 
+        word-break: break-all;
+    }
+    .footer__contacts{
+        word-break: break-all;
+
+    }
 }

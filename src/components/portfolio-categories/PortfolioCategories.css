@@ -13,6 +13,8 @@
     margin:1rem;
     transition: all 1s ease;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .selected-category{
@@ -23,4 +25,21 @@
     background-color: var(--yellow);
     color: var(--black);
     transform: scale(1.1);
+}
+
+@media screen and (max-width: 479px){
+    .category{
+        padding: 0.5rem 1rem;
+        margin:.1rem;
+    }
+    .category:hover{
+        transform: none;
+    }
+}
+
+
+@media screen and (max-width: 219px){
+    .categories{
+        flex-wrap: wrap;
+    }
 }

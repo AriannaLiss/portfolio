@@ -10,6 +10,7 @@
     justify-content: flex-end;
     align-content:flex-start;
     gap:0;
+    margin: 0 auto 3rem;
 }
 
 .skills__text{
@@ -51,3 +52,22 @@
 .skill > img{
     height:100%;
 }
+
+@media screen and (max-width: 979px){
+    .skills{
+        flex-direction: column;
+    }
+
+    .skills__icons{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 320px){
+    .skills__icons{
+        display: none;
+    }
+}
+

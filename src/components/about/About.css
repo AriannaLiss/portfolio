@@ -1,6 +1,7 @@
 .about{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 16rem;
 }
 
 .about__foto{
@@ -23,5 +24,22 @@
 .content{
     font-family: 'Poppins';
     font-weight: 400;
-    margin-bottom: 7rem;
+}
+
+@media screen and (max-width: 545px){
+    .about{
+        margin-bottom:6rem;
+    }
+}
+
+@media screen and (max-width: 389px){
+    .about__foto{
+        width:100%;
+    }
+    .about__text, .about__hire{
+        display: none;
+    }
+    #about{
+        margin-top:0;
+    }
 }
