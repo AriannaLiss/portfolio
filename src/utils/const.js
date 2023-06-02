@@ -18,7 +18,7 @@ export const _GIT = 'GIT'
 export const _FIGMA = 'Figma'
 export const _BOOTSTRAP = 'Bootstrap'
 
-export const MENU = ['home', 'about', 'skills', 'portfolio', 'contacts'];
+export const MENU = ['about', 'skills', 'portfolio', 'contacts'];
 
 export const SKILLS = [
     {alt: _REACT, src: reactSkill},

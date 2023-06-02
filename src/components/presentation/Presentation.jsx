@@ -9,7 +9,7 @@ const Presentation = () => {
                 <p>Hi, I am <a href="#">Lidia Kalakutska</a> 👋</p>
                 <h1>Front-end developer</h1>
                 <p>I love develop beautiful apps and resolve interesting tasks.</p>
-                <Ava/>
+                <div className="home__ava"><Ava/></div>
             </div>
         </section>
     );

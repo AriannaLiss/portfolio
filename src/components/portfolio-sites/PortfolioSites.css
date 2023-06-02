@@ -77,3 +77,9 @@
         max-width: 90%;
     }
 }
+
+@media (orientation: landscape) {
+    .site {
+      max-height: 80vh;
+    }
+  }

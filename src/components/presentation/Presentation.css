@@ -40,3 +40,13 @@
         display: none;
     }
 }
+
+@media (orientation: landscape) {
+    .home__ava {
+      display: none;
+    }
+
+    .presentation{
+        margin: 10vh;
+    }
+  }
