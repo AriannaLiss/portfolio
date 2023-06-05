@@ -36,7 +36,16 @@
         transform: none;
     }
 }
-
+@media screen and (max-width: 660px){
+    .clue{
+        display: block;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .works .subtitle{
+        margin-bottom: 1.5rem;
+    }
+}
 
 @media screen and (max-width: 219px){
     .categories{
