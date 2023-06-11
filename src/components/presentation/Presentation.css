@@ -35,7 +35,7 @@
     min-width: 20rem;
 }
 
-@media screen and (max-width: 545px){
+@media screen and (max-width: 548px){
     #home{
         display: none;
     }

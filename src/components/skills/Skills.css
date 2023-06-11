@@ -25,6 +25,7 @@
     padding: 1rem;
     border-radius: 1rem;
     display: block;
+    text-align: right;
 }
 
 .skill, .skill__text{
@@ -63,7 +64,6 @@
         justify-content: center;
     }
 }
-
 
 @media screen and (max-width: 320px){
     .skills__icons{

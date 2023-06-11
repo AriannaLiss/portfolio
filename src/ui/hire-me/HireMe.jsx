@@ -1,9 +1,9 @@
 import React from 'react';
 import './HireMe.css'
 
-const HireMe = () => {
+const HireMe = ({text="Hire me", href="mailto:lidiia.kalakutska@gmail.com"}) => {
     return (
-        <a href="mailto:lidiia.kalakutska@gmail.com" className="hire">Hire me</a>
+        <a href={href} className="hire" target="_blank">{text}</a>
     );
 };
 

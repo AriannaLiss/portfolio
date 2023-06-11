@@ -27,16 +27,7 @@
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 479px){
-    .category{
-        padding: 0.5rem 1rem;
-        margin:.1rem;
-    }
-    .category:hover{
-        transform: none;
-    }
-}
-@media screen and (max-width: 660px){
+@media screen and (max-width: 672px){
     .clue{
         display: block;
         font-size: 1rem;
@@ -47,7 +38,17 @@
     }
 }
 
-@media screen and (max-width: 219px){
+@media screen and (max-width: 479px){
+    .category{
+        padding: 0.5rem 1rem;
+        margin:.1rem;
+    }
+    .category:hover{
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 312px){
     .categories{
         flex-wrap: wrap;
     }

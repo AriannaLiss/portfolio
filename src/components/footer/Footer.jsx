@@ -7,8 +7,8 @@ const Footer = () => {
         {children:'linkidIn', href:'https://www.linkedin.com/in/lidiia-kalakutska-61418118b/'},
         {children:'github', href:'https://github.com/AriannaLiss'},
         {children:'telegram', href:'https://t.me/lia_light'},
-        {children:'instagram', href:'https://www.instagram.com/li.de.nec/'}, 
         {children:'facebook', href:'https://www.facebook.com/profile.php?id=100004917217772'}, 
+        {children:'CV', href:'https://www.figma.com/proto/lke6xTQfWXHCTNP9JyPgzN/CV---Lidiia-Kalakutska---FrontEnd-developer-(React)?node-id=2-20'}, 
     ]
 
     return (
@@ -30,9 +30,10 @@ const Footer = () => {
                     <h2 className="footer__title">Navigation</h2>
                     <ul className="footer__list">
                         {MENU.map( item => 
+                        {return item!='contacts' ? 
                             <li className="footer__item">
                                 <a key={item} href={"#"+item}>{item}</a>
-                            </li>)}
+                            </li> : ''})}
                     </ul>
                 </div>
                 <div className="footer__column">

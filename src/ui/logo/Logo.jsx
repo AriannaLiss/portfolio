@@ -2,9 +2,9 @@ import React from 'react';
 import logo from '../../img/logo.png';
 import './Logo.css';
 
-const Logo = () => {
+const Logo = (props) => {
     return (
-        <div>
+        <div {...props}>
             <a href="#">
                 <img className='logo' src={logo} alt="logo"/>
             </a>

@@ -18,9 +18,12 @@
     flex-wrap: wrap;
     justify-content: flex-end;
 }
-
 header .hire{
     width: auto;
+}
+
+.header__hire{
+    margin-left: 1rem;
 }
 
 .header__item{
@@ -39,15 +42,32 @@ header .hire{
     }
 }
 
-@media screen and (max-width: 545px){
-    .header__hire{
-        display: none;
+@media screen and (max-width: 600px){
+    .header .hire{
+        min-width: auto;    
+        width: auto;
+        padding: 1rem;
+        line-height: 2.5rem;
+        height: auto;
+        /* display: none; */
     }
+}
 
+@media screen and (max-width: 548px){
     .header__item:first-child{
         display: none;
     }
     .header__item{
         padding:.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 182px){
+    .header{
+        flex-direction: row-reverse;
+    }
+    .header__logo{
+        display: none;
     }
 }

@@ -8,7 +8,7 @@ const Skills = () => {
     const text = {
         title:'my skills',
         subtitle: 'What My Programming Skills Included?',
-        text: [`I can reslove your tasks and create responsive user interface with these technologies:`]
+        text: [`I can reslove your tasks and create responsive web applications with these technologies:`]
     }
     return (
         <section id='skills'>

@@ -1,9 +1,0 @@
-.list{
-    flex: 1 0 auto;
-    overflow: hidden;
-}
-
-.message{
-    padding:2rem;
-    color:grey;
-}

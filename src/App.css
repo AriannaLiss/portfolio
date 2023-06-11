@@ -96,7 +96,7 @@ h1{
     justify-content: end;
 }
 
-@media screen and (max-width: 545px){
+@media screen and (max-width: 548px){
     section{
         margin: 4rem auto 2rem;
     }
