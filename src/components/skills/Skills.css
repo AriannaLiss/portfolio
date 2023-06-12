@@ -26,6 +26,7 @@
     border-radius: 1rem;
     display: block;
     text-align: right;
+    color: white;
 }
 
 .skill, .skill__text{
@@ -52,6 +53,13 @@
 
 .skill > img{
     height:100%;
+}
+
+@media screen and (min-width: 2000px){
+    .skills__icons{
+        width:auto;
+        margin:0;
+    }
 }
 
 @media screen and (max-width: 979px){

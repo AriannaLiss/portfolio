@@ -1,9 +1,9 @@
 import React from 'react';
 import './PortfolioSites.css'
 
-const PortfolioSites = ({sites, isReact}) => {
+const PortfolioSites = ({sites, isReact, isResponsive}) => {
     return (
-        <div className={sites.length%2==0&&sites.length%3!=0 ? 'sites pair_columns' : 'sites'}>
+        <div className='sites'>
             {sites.length 
                 ? sites.map( site => 
                     <div
@@ -24,7 +24,8 @@ const PortfolioSites = ({sites, isReact}) => {
                 ) 
                 : <div className='noSites'>Here is no sites in this category yet.</div>
             }
-            {isReact&&<div className='site reactSign'><p>This site is also created on React<br/>and there are few projects now in developing stage</p></div>}
+            {isReact&&<div className='site site-msg'><p>This site is also created on React<br/>and there are few projects now in developing stage</p></div>}
+            {isResponsive&&<div className='site site-msg'><p>Resonsive design is also implemented for this portfolio.</p></div>}
         </div>
     );
 };

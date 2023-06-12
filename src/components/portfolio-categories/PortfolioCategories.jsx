@@ -8,7 +8,13 @@ const PortfolioCategories = ({categories, selectedCategory, setSelectedCategory}
                 <h2 className='subtitle'>Featured Works<span className='clue'>(clickable)</span></h2>
                 <div className="categories">
                     {categories.map(category => 
-                        <div key={category} className={selectedCategory==category?"selected-category category":"category"} onClick={() => setSelectedCategory(category)}>{category}</div>
+                        <div 
+                            key={category} 
+                            className={selectedCategory==category?"selected-category category":"category"} 
+                            onClick={() => setSelectedCategory(category)}
+                        >
+                            {category}
+                        </div>
                     )}
                 </div>
         </div>

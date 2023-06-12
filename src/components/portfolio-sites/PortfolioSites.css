@@ -13,10 +13,6 @@
     position: relative;
 }
 
-.pair_columns .site{
-    max-width: 48%;
-}
-
 .site:hover{
     transform: scale(1.1);
 }
@@ -59,16 +55,17 @@
     text-transform: uppercase;
     font-size: large;
     font-weight: bold;
-    display:flex;
 }
 
 .site__click{
+    display:flex;
     background-color: black;
     color: white;
     height:100%;
 }
 
 .site__git{
+    display: none;
     height:0;
     color:black;
     background-color: var(--yellow);
@@ -80,15 +77,16 @@
    color: var(--llGrey)
 }
 
-.reactSign{
+.site-msg{
     display:flex;
     justify-content: center;
     align-items: center;
     border: 2px solid white;
     border-radius: 3rem;
+    max-width: 300px;
 }
 
-.reactSign p{
+.site-msg p{
     max-width: 80%;
     margin: 3rem;
     font-size: 2rem;
@@ -103,26 +101,26 @@
 }
 
 @media screen and (max-width: 666px){
-    .reactSign p{
+    .site-msg p{
         font-size: 1.5rem;
         line-height: 3rem;;
     }
 }
 
 @media screen and (max-width: 526px){
-    .reactSign p{
+    .site-msg p{
         font-size: 1rem;
         line-height: 2rem;;
     }
 }
 
 @media screen and (max-width: 402px){
-    .reactSign p{
+    .site-msg p{
         line-height: 1.5rem;;
     }
 }
 
-@media screen and (max-width: 359px){
+@media screen and (max-width: 370px){
     .site{
         max-width: 90%;
     }
