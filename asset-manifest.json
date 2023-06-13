@@ -1,14 +1,12 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5d1062ea.css",
-    "main.js": "/portfolio/static/js/main.9c214266.js",
+    "main.css": "/portfolio/static/css/main.145d438c.css",
+    "main.js": "/portfolio/static/js/main.b49e2d59.js",
     "static/media/me.png": "/portfolio/static/media/me.edc78d47008c4059720f.png",
     "static/media/bg.png": "/portfolio/static/media/bg.4a7fd6fa26ceb3c36565.png",
-    "static/media/Ukraine.png": "/portfolio/static/media/Ukraine.5e66823dba0b0d08c87b.png",
     "static/media/ava.png": "/portfolio/static/media/ava.a477a3879342359c51de.png",
     "static/media/dapperBully.png": "/portfolio/static/media/dapperBully.3b8705238333e15fccb1.png",
     "static/media/hotel.png": "/portfolio/static/media/hotel.be2cb90ce3a04c6c9b2f.png",
-    "static/media/Stars.png": "/portfolio/static/media/Stars.2313aee6522a63f45075.png",
     "static/media/pacman.png": "/portfolio/static/media/pacman.b4c2165600646863270c.png",
     "static/media/todo.png": "/portfolio/static/media/todo.a104155278db3f18dee4.png",
     "static/media/calc.png": "/portfolio/static/media/calc.fbe6d3b74690c3ee26df.png",
@@ -23,11 +21,11 @@
     "static/media/figma.svg": "/portfolio/static/media/figma.e37ebb812551398ca0f09763cb2b0292.svg",
     "index.html": "/portfolio/index.html",
     "static/media/react.svg": "/portfolio/static/media/react.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.5d1062ea.css.map": "/portfolio/static/css/main.5d1062ea.css.map",
-    "main.9c214266.js.map": "/portfolio/static/js/main.9c214266.js.map"
+    "main.145d438c.css.map": "/portfolio/static/css/main.145d438c.css.map",
+    "main.b49e2d59.js.map": "/portfolio/static/js/main.b49e2d59.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d1062ea.css",
-    "static/js/main.9c214266.js"
+    "static/css/main.145d438c.css",
+    "static/js/main.b49e2d59.js"
   ]
 }
