@@ -13,7 +13,8 @@ const About = () => {
             'Last year I worked as a Java developer in the largest outsourcing company in Ukraine, I developed features for simplifying managing financial operations for medical corporations.',
             'I’m always curious about learning new skills, tools, and concepts. And I believe that every person should do what she/he likes and find use for her/his talents.',
             'Now I am living in Czech Republic, doing front-end course and looking for my dream job.',
-            'I would be happy if we match with each other.'
+            'I would be happy if we match with each other.',
+            <p>You can find my CV <a href='https://www.figma.com/proto/lke6xTQfWXHCTNP9JyPgzN/CV---Lidiia-Kalakutska---FrontEnd-developer-(React)?node-id=2-20' target='_blank'>here</a>.</p>
         ]
     }
     return (

@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './Portfolio.css'
 import dapperBully from '../../img/sites/markup/dapperBully.png'
-import stars from '../../img/sites/markup/Stars.png'
-import ukraine from '../../img/sites/markup/Ukraine.png'
 import hotel from '../../img/sites/markup/hotel.png'
 import todo from '../../img/sites/react/todo.png'
 import pacman from '../../img/sites/js/pacman.png'
@@ -21,14 +19,12 @@ const Portfolio = ({selectedSkill, resetSkill}) => {
     const standardCategories = [ALL, REACT, JS, MARKUP]
     
     const sites = [
-        {alt:'Barber shop site', href:'http://lia.infinityfreeapp.com/hw8/', git:'https://github.com/AriannaLiss/htmlCSS/tree/master/hw8', src: dapperBully, categories:[MARKUP], skills:[_BOOTSTRAP,_RESPONSIVE_DESIGN]},
+        {alt:'Hotel', href:'https://ariannaliss.github.io/hotel/', git:'https://github.com/AriannaLiss/hotel', src: hotel, categories:[MARKUP], skills:[_HTML,_SCSS]},
         {alt:'Pacman', href:'http://ariannaliss.github.io/pacman/', git:'https://github.com/AriannaLiss/pacman', src: pacman, categories:[JS], skills:[_JS,_HTML,_CSS]},
         {alt:'Todo', href:'https://ariannaliss.github.io/mood-adviser/', git:'https://github.com/AriannaLiss/mood-adviser', src: todo, categories:[REACT], skills:[_REACT]}, 
-        {alt:'Hotel Reservation site', href:'http://lia.infinityfreeapp.com/hw5/', git:'https://github.com/AriannaLiss/htmlCSS/tree/master/hw5', src: stars, categories:[MARKUP], skills:[_HTML,_CSS]},
-        {alt:'Site about Ukraine', href:'http://lia.infinityfreeapp.com/hw3/', git:'https://github.com/AriannaLiss/htmlCSS/tree/master/hw3', src: ukraine, categories:[MARKUP], skills:[_HTML,_CSS]},
         {alt:'Calculator', href:'http://ariannaliss.github.io/calc/', git:'https://github.com/AriannaLiss/calc', src: calc, categories:[JS], skills:[_JS]},
         {alt:'Timer', href:'http://ariannaliss.github.io/timer/', git:'https://github.com/AriannaLiss/timer', src: timer, categories:[JS], skills:[_JS]},
-        {alt:'Hotel', href:'https://ariannaliss.github.io/hotel/', git:'https://github.com/AriannaLiss/hotel', src: hotel, categories:[MARKUP], skills:[_HTML,_SCSS]},
+        {alt:'Barber shop site', href:'http://lia.infinityfreeapp.com/hw8/', git:'https://github.com/AriannaLiss/htmlCSS/tree/master/hw8', src: dapperBully, categories:[MARKUP], skills:[_BOOTSTRAP,_RESPONSIVE_DESIGN]},
     ]
     
     const [categories, setCategories] = useState(standardCategories);
