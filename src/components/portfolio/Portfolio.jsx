@@ -3,6 +3,7 @@ import './Portfolio.css'
 import dapperBully from '../../img/sites/markup/dapperBully.png'
 import hotel from '../../img/sites/markup/hotel.png'
 import todo from '../../img/sites/react/todo.png'
+import comments from '../../img/sites/react/comments.png'
 import pacman from '../../img/sites/js/pacman.png'
 import timer from '../../img/sites/js/timer.png'
 import calc from '../../img/sites/js/calc.png'
@@ -19,12 +20,13 @@ const Portfolio = ({selectedSkill, resetSkill}) => {
     const standardCategories = [ALL, REACT, JS, MARKUP]
     
     const sites = [
-        {alt:'Hotel', href:'https://ariannaliss.github.io/hotel/', git:'https://github.com/AriannaLiss/hotel', src: hotel, categories:[MARKUP], skills:[_HTML,_SCSS]},
-        {alt:'Pacman', href:'http://ariannaliss.github.io/pacman/', git:'https://github.com/AriannaLiss/pacman', src: pacman, categories:[JS], skills:[_JS,_HTML,_CSS]},
-        {alt:'Todo', href:'https://ariannaliss.github.io/mood-adviser/', git:'https://github.com/AriannaLiss/mood-adviser', src: todo, categories:[REACT], skills:[_REACT]}, 
-        {alt:'Calculator', href:'http://ariannaliss.github.io/calc/', git:'https://github.com/AriannaLiss/calc', src: calc, categories:[JS], skills:[_JS]},
-        {alt:'Timer', href:'http://ariannaliss.github.io/timer/', git:'https://github.com/AriannaLiss/timer', src: timer, categories:[JS], skills:[_JS]},
         {alt:'Barber shop site', href:'http://lia.infinityfreeapp.com/hw8/', git:'https://github.com/AriannaLiss/htmlCSS/tree/master/hw8', src: dapperBully, categories:[MARKUP], skills:[_BOOTSTRAP,_RESPONSIVE_DESIGN]},
+        {alt:'Todo', href:'https://ariannaliss.github.io/mood-adviser/', git:'https://github.com/AriannaLiss/mood-adviser', src: todo, categories:[REACT], skills:[_REACT,_JS]}, 
+        {alt:'Pacman', href:'http://ariannaliss.github.io/pacman/', git:'https://github.com/AriannaLiss/pacman', src: pacman, categories:[JS], skills:[_JS,_HTML,_CSS]},
+        {alt:'Comments', href:'https://ariannaliss.github.io/ReactAPIComments/', git:'https://github.com/AriannaLiss/ReactAPIComments', src: comments, categories:[REACT], skills:[_REACT,_JS]}, 
+        {alt:'Timer', href:'http://ariannaliss.github.io/timer/', git:'https://github.com/AriannaLiss/timer', src: timer, categories:[JS], skills:[_JS]},
+        {alt:'Hotel', href:'https://ariannaliss.github.io/hotel/', git:'https://github.com/AriannaLiss/hotel', src: hotel, categories:[MARKUP], skills:[_HTML,_SCSS]},
+        {alt:'Calculator', href:'http://ariannaliss.github.io/calc/', git:'https://github.com/AriannaLiss/calc', src: calc, categories:[JS], skills:[_JS]},
     ]
     
     const [categories, setCategories] = useState(standardCategories);
