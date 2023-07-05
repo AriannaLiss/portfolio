@@ -62,6 +62,10 @@ section{
     margin-bottom: 2rem;
 }
 
+.title:hover, .subtitle:hover, h1:hover{
+    cursor:default;
+}
+
 h1, .subtitle{
     font-weight: 700;
     font-size: 4.8rem;

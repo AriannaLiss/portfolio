@@ -31,8 +31,8 @@ const Footer = () => {
                     <ul className="footer__list">
                         {MENU.map( item => 
                         {return item!='contacts' ? 
-                            <li className="footer__item">
-                                <a key={item} href={"#"+item}>{item}</a>
+                            <li className="footer__item" key={item}>
+                                <a href={"#"+item}>{item}</a>
                             </li> : ''})}
                     </ul>
                 </div>
@@ -40,8 +40,8 @@ const Footer = () => {
                     <h2 className="footer__title">Contacts</h2>
                     <ul className="footer__list">
                     {socials.map( item =>
-                        <li className="footer__item">
-                            <a key={item.children}target='_blank' {...item}/>
+                        <li className="footer__item" key={item.children}>
+                            <a target='_blank' {...item}/>
                         </li> )}
                     </ul>
                 </div>

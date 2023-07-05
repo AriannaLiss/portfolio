@@ -20,7 +20,7 @@ const App = () => {
             <div className='container'>
                 <Menu/>
                 <Presentation/>
-                <About/>
+                <About setSkill={setSkill}/>
                 <Skills selectedSkill={selectedSkill} setSkill={setSkill}/>
                 <Portfolio selectedSkill={selectedSkill} resetSkill={resetSkill}/>
             </div>

@@ -6,10 +6,6 @@
     color: var(--llGrey);
 }
 
-.text>*{
-    transition: transform 1s ease;
-}
-
 .text>*:hover{
-    transform: scale(1.05);
+    cursor:default
 }

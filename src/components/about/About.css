@@ -21,6 +21,14 @@
     margin-bottom: 3rem;
 }
 
+.about a{
+    transition: font-size 1s ease;
+}
+
+.about a:hover{
+    font-size:1.8rem;
+}
+
 .content{
     font-family: 'Poppins';
     font-weight: 400;
