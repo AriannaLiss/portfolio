@@ -1,5 +1,5 @@
 import React from 'react';
-import { MENU } from '../../utils/const';
+import { MENU, PORTFOLIO_LINK } from '../../utils/const';
 import './Footer.css';
 
 const Footer = () => {
@@ -46,7 +46,7 @@ const Footer = () => {
                     </ul>
                 </div>
             </div>
-            <p className="sign">This site is developed in <a target='_blank' href='https://github.com/AriannaLiss/portfolio'>React</a> (look at <a target='_blank' href='https://github.com/AriannaLiss/portfolio'>github.com</a>)</p>
+            <p className="sign">This site is developed in {PORTFOLIO_LINK('React')} (look at {PORTFOLIO_LINK('github.com')})</p>
         </footer>
     );
 };

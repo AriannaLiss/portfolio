@@ -36,6 +36,18 @@
     height:50%;
 }
 
+.site-msg .site__hover{
+    height:0;
+}
+
+.site-msg:hover .site__hover{
+    height:25%;
+}
+
+.site-msg:hover .site__git{
+    height:100%;
+}
+
 .site__hover{
     position:absolute;
     bottom:0;
@@ -85,7 +97,8 @@
     align-items: center;
     border: 2px solid white;
     border-radius: 3rem;
-    max-width: 300px;
+    max-width: 30rem;
+    min-height: 20rem;
 }
 
 .site-msg p{

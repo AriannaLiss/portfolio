@@ -31,3 +31,5 @@ export const SKILLS = [
     {alt: _GIT, src: gitSkill},
     {alt: _FIGMA, src: figmaSkill},
 ]
+
+export const PORTFOLIO_LINK = (label, className) => <a className={className} target='_blank' href='https://github.com/AriannaLiss/portfolio'>{label}</a>

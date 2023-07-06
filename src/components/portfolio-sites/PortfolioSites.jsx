@@ -1,4 +1,5 @@
 import React from 'react';
+import { PORTFOLIO_LINK } from '../../utils/const';
 import './PortfolioSites.css'
 
 const PortfolioSites = ({sites, isReact, isResponsive}) => {
@@ -24,8 +25,16 @@ const PortfolioSites = ({sites, isReact, isResponsive}) => {
                 ) 
                 : <div className='noSites'>Here is no sites in this category yet.</div>
             }
-            {isReact&&<div className='site site-msg'><p>This site is also created on React<br/>and there are few projects now in developing stage</p></div>}
-            {isResponsive&&<div className='site site-msg'><p>Resonsive design is also implemented for this portfolio.</p></div>}
+            {(isReact||isResponsive)&&<div className='site site-msg'>
+                    <p>
+                        {isReact
+                            ?<>Resonsive design is also implemented for this portfolio.</>
+                            :<>This site is also created on React<br/>and there are few projects now in developing stage</>}
+                    </p>                        
+                    <div className="site__hover">
+                        {PORTFOLIO_LINK('git','site__git')}
+                    </div>
+                </div>}
         </div>
     );
 };
