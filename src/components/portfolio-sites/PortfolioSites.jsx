@@ -27,7 +27,7 @@ const PortfolioSites = ({sites, isReact, isResponsive}) => {
             }
             {(isReact||isResponsive)&&<div className='site site-msg'>
                     <p>
-                        {isReact
+                        {isResponsive
                             ?<>Resonsive design is also implemented for this portfolio.</>
                             :<>This site is also created on React<br/>and there are few projects now in developing stage</>}
                     </p>                        
